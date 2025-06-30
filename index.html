@@ -1,78 +1,19 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>나의 포트폴리오</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f2f2f2;
-    }
-    header {
-      background-color: #333;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-    }
-    section {
-      padding: 2rem;
-    }
-    .project {
-      background-color: white;
-      margin-bottom: 1rem;
-      padding: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    footer {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-    }
-    a {
-      color: #007acc;
-      text-decoration: none;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>홍길동의 포트폴리오</h1>
-    <p>소프트웨어 개발자 | 자동화 | 데이터 분석</p>
-  </header>
-
-  <section>
-    <h2>소개</h2>
-    <p>안녕하세요. 백엔드와 자동화에 관심 있는 개발자 홍길동입니다.</p>
-  </section>
-
-  <section>
-    <h2>프로젝트</h2>
-    <div class="project">
-      <h3>자동 매매 시스템</h3>
-      <p>Python과 C#을 활용하여 조건 기반 매매 자동화 시스템 개발</p>
-      <a href="https://github.com/yourid/autotrade">GitHub 보기</a>
-    </div>
-    <div class="project">
-      <h3>프린터 펌웨어 관리 도구</h3>
-      <p>C# WinForms로 개발한 프린터 펌웨어 업데이트 및 관리 툴</p>
-      <a href="https://github.com/yourid/printer-tools">GitHub 보기</a>
-    </div>
-  </section>
-
-  <section>
-    <h2>연락처</h2>
-    <p>Email: yourname@example.com</p>
-    <p>GitHub: <a href="https://github.com/yourid" target="_blank">yourid</a></p>
-  </section>
-
-  <footer>
-    © 2025 홍길동. All rights reserved.
-  </footer>
-</body>
-</html>
+<h3>매매 결과</h3>
+            <table border='1' cellpadding='4' cellspacing='0' style='border-collapse: collapse; font-family: Arial, sans-serif; font-size: 14px; text-align: center;'>
+                <thead>
+                  <tr style='background-color: #dfe6ed; font-weight: bold;'>
+                    <th rowspan='2' style='border: 1px solid black; padding: 6px 14px;'>티커</th>
+                    <th rowspan='2' style='border: 1px solid black; padding: 6px 14px;'>수량</th>
+                    <th style='border: 1px solid black; padding: 6px 14px;'>현재가</th>
+                    <th style='border: 1px solid black; padding: 6px 14px;'>전일대비</th>
+                    <th style='border: 1px solid black; padding: 6px 14px;'>평가손익</th>
+                    <th style='border: 1px solid black; padding: 6px 14px;'>평가금액</th>
+                    <th rowspan='2' style='border: 1px solid black; padding: 6px 14px;'>거래종류</th>
+                  </tr>
+                  <tr style='background-color: #dfe6ed; font-weight: bold;'>
+                    <th style='border: 1px solid black; padding: 6px 14px;'>평단가</th>
+                    <th style='border: 1px solid black; padding: 6px 14px;'>등락률(%)</th>
+                    <th style='border: 1px solid black; padding: 6px 14px;'>손익률(%)</th>
+                    <th style='border: 1px solid black; padding: 6px 14px;'>매입금액</th>
+                  </tr>
+                </thead><tbody><tr style='background-color: #ffffff;'>  <td rowspan='2' style='border: 1px solid black; padding: 4px 14px;'>HIBL</td>  <td rowspan='2' style='border: 1px solid black; padding: 4px 14px;'>6주 → <span style='font-weight:bold;color:#3166FF'>6주</span></td>  <td style='border: 1px solid black; padding: 4px 14px;'>$42.54 (59,556원)</td>  <td style='border: 1px solid black; padding: 4px 14px; color:red;'>▲ $0.57</td>  <td style='border: 1px solid black; padding: 4px 14px; color:red;'>1,176원</td>  <td style='border: 1px solid black; padding: 4px 14px;'>357,336원</td>  <td rowspan='2' style='border: 1px solid black; padding: 4px 14px;'>절반매수</td></tr><tr style='background-color: #ffffff;'>  <td style='border: 1px solid black; padding: 4px 14px;'>$42.4 → <span style='font-weight:bold;color:#3166FF'>$42.4</span></td>  <td style='border: 1px solid black; padding: 4px 14px; color:red'>1.36%</td>  <td style='border: 1px solid black; padding: 4px 14px;'>0.33%  → <span style='font-weight:bold;color:#3166FF'>0.33%</span></td>  <td style='border: 1px solid black; padding: 4px 14px;'>356,160원</td></tr><tr style='background-color: #f5f9ff;'>  <td rowspan='2' style='border: 1px solid black; padding: 4px 14px;'>CONL</td>  <td rowspan='2' style='border: 1px solid black; padding: 4px 14px;'>6주 → <span style='font-weight:bold;color:#3166FF'>6주</span></td>  <td style='border: 1px solid black; padding: 4px 14px;'>$46.95 (65,730원)</td>  <td style='border: 1px solid black; padding: 4px 14px; color:blue;'>▼ $6.05</td>  <td style='border: 1px solid black; padding: 4px 14px; color:red;'>756원</td>  <td style='border: 1px solid black; padding: 4px 14px;'>394,380원</td>  <td rowspan='2' style='border: 1px solid black; padding: 4px 14px;'>절반매수</td></tr><tr style='background-color: #f5f9ff;'>  <td style='border: 1px solid black; padding: 4px 14px;'>$46.86 → <span style='font-weight:bold;color:#3166FF'>$46.86</span></td>  <td style='border: 1px solid black; padding: 4px 14px; color:blue'>-11.42%</td>  <td style='border: 1px solid black; padding: 4px 14px;'>0.19%  → <span style='font-weight:bold;color:#3166FF'>0.19%</span></td>  <td style='border: 1px solid black; padding: 4px 14px;'>393,624원</td></tr><tr style='background-color: #ffffff;'>  <td rowspan='2' style='border: 1px solid black; padding: 4px 14px;'>TSLL</td>  <td rowspan='2' style='border: 1px solid black; padding: 4px 14px;'>87주 → <span style='font-weight:bold;color:#3166FF'>87주</span></td>  <td style='border: 1px solid black; padding: 4px 14px;'>$12.27 (17,178원)</td>  <td style='border: 1px solid black; padding: 4px 14px; color:blue;'>▼ $0.17</td>  <td style='border: 1px solid black; padding: 4px 14px; color:black;'>-53,088원</td>  <td style='border: 1px solid black; padding: 4px 14px;'>1,494,486원</td>  <td rowspan='2' style='border: 1px solid black; padding: 4px 14px;'>1회매수</td></tr><tr style='background-color: #ffffff;'>  <td style='border: 1px solid black; padding: 4px 14px;'>$12.7 → <span style='font-weight:bold;color:#3166FF'>$12.7</span></td>  <td style='border: 1px solid black; padding: 4px 14px; color:blue'>-1.37%</td>  <td style='border: 1px solid black; padding: 4px 14px;'>-3.43%  → <span style='font-weight:bold;color:#3166FF'>-3.43%</span></td>  <td style='border: 1px solid black; padding: 4px 14px;'>1,547,574원</td></tr></tbody></table>
